@@ -1,0 +1,131 @@
+@import url('https://fonts.cdnfonts.com/css/chinese-rocks');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Cinzel", serif;
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+}
+
+.barra{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    flex: 20%;
+    margin-left: -3%;
+    text-align: center;
+    
+}
+
+.logo h1{
+    color: white;
+    font-family: 'Chinese Rocks Rg', sans-serif;;
+    font-size: 35px;
+}
+
+.menu{
+    flex: 40%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 70px;
+    font-family: 'Chinese Rocks Rg', sans-serif;
+
+}
+
+.menu a:hover{
+    color: red;
+    border-top:4px solid rgb(138, 0, 0);
+}
+
+#login{
+    color: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-right: 3%;
+    font-size: 25px;
+}
+
+#login:hover {
+    color: rgb(255, 255, 255);
+}
+
+.header{
+    display: flex;
+    flex-flow:row wrap;
+    height: 750px;
+    background-color: red;
+    align-items: center;
+}
+
+.headline{
+    margin-left: 10%;
+    flex: 40%;
+}
+
+.headline h2{
+    font-weight: 800;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Chinese Rocks Rg', sans-serif;
+}
+
+.headline h3{
+    font-weight: 900;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Chinese Rocks Rg', sans-serif;
+}
+
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-family: 'Chinese Rocks Rg', sans-serif;
+
+}
+
+.contact-btn{
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.contact-btn:hover{
+    color: red;
+    background-color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 15px;
+}
+
+
